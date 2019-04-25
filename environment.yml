@@ -1,0 +1,24 @@
+# conda env create|update --file environment.yml
+name: MIMIC_Code
+dependencies:
+- python=3.6
+- pip
+- pip:
+  - '--editable=.'
+  - flake8
+  - flake8-quotes
+  - jupyter
+  - matplotlib
+  - numpy==1.16.*
+  - pandas==0.24.1
+  - pytest
+  - pytest-mock
+  - scipy
+  - seaborn
+  - sklearn
+  - argparse
+  - torchvision
+  - pytest
+  - pytest-mock
+
+

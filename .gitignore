@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
 # C extensions
 *.so
 
@@ -102,3 +103,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# My Excludes
+data/
+.idea/
+.DS_Store
+*.csv
+*.pt
+*.json

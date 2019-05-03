@@ -20,7 +20,7 @@ https://mimic.physionet.org
 Copy unzipped MIMIC-data into
 'data/all/raw'
 
-Copy unzipped MIMIC-demo-data into (smaller files for testing)
+Copy unzipped MIMIC-demo-data (smaller files for testing) into 
 'data/demo_data/all/raw'
 
 
@@ -32,8 +32,11 @@ source activate MIMIC_Code
 jupyter notebook
 pytest
 ```
-Click through the following notebook to split the data into training,validation, and test data:
-train_val_test.ipynb
+
+Run the following script to split the data into training, validation and test data
+```sh
+src/prep/train_test_split.py
+```
 
 Click through following jupyter notebook to get an overview:
 exp/Examples_on_how_to_prepare_predictors_and_targets.ipynb

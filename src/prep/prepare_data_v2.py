@@ -24,7 +24,7 @@ class PrepareDataV2:
         # read data from csv
 
         file_name_csv = self.root_raw + table_name.upper() + '.csv'
-        table = pd.read_csv(file_name_csv)
+        table = pd.read_csv(file_name_csv, low_memory=False)
 
         # set datetime-columns
         cols = table.columns.values.tolist()

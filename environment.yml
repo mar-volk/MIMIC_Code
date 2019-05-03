@@ -17,7 +17,6 @@ dependencies:
   - seaborn
   - sklearn
   - argparse
-  - torchvision
   - pytest
   - pytest-mock
 
